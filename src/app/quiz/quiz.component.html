@@ -1,0 +1,50 @@
+<div class="row">
+  <div class="col-md-6">
+    <h3>MCQ Application</h3>
+  </div>
+</div>
+<div class="quiz">
+  <h1 class="text-sm-center">Frontend Quiz</h1>
+  <hr />
+
+  <div *ngIf="mode=='quiz' && quiz">
+    <div class="timer"><b>Time Left: </b>{{timeLeft}} Seconds</div>
+    <div *ngFor="let question of filteredQuestions;">
+      <div class="badge badge-info">Question {{pager.index + 1}} of {{pager.count}}.</div>
+      <h2 class="question">{{pager.index + 1}}. <span [innerHTML]="question.name"></span></h2>
+      <div class="row text-left options">
+        <div class="col-md-6" *ngFor="let option of question.options">
+          <div class="option">
+            <label class="" [attr.for]="option.id">
+                <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected" (change)="onSelect(question, option);" />
+                {{option.name}}
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-sm-center button-container">
+      <button class="btn btn-outline-primary action-buttons" (click)="goTo(pager.index - 1);">Prev</button>
+      <button class="btn btn-outline-primary action-buttons" (click)="goTo(pager.index + 1);">Next</button>
+    </div>
+    <div *ngIf="requiredMessage" class="invalid-text">This question is required to be answered</div>
+  </div>
+  <div class="result" *ngIf="mode=='result'">
+    <h2>Quiz Result</h2>
+    <div>
+      <canvas
+        baseChart
+        [chartType]="'pie'"
+        [datasets]="pieChartData"
+        [labels]="pieChartLabels"
+        [options]="pieChartOptions"
+        [legend]="true"
+        [colors]="pieChartColor">
+      </canvas>
+    </div>
+  </div>
+  <hr />
+  <div *ngIf="mode!='result'">
+    <button class="btn btn-primary submit-button" (click)="onSubmit()">Submit</button>
+  </div>
+</div>

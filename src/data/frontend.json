@@ -1,0 +1,326 @@
+{
+  "id": 1,
+  "name": "Frontend Quiz",
+  "questions": [
+    {
+      "id": 1010,
+      "name": "On which of the following types of component can we create a custom directive?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Element directives",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Attribute",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "CSS",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "All of the above",
+          "isAnswer": true
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "name": "Inside which HTML element do we put the JavaScript?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "<js>",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "<javascript>",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "<script>",
+          "isAnswer": true
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "<scripting>",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "name": "How do you write 'Hello World' in an alert box?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "alert('Hello World')",
+          "isAnswer": true
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "alert('Hello World')",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "alertBox('Hello World')",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "msgBox('Hello World')",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "name": "What does MVC stand for?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Model View Controller",
+          "isAnswer": true
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Maximum Virtual Control",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Microsoft Visual Core",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "None of the above",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "name": "How to write an IF statement in JavaScript?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "if i=5 then",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "if i==5 then",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "if(i==5)",
+          "isAnswer": true
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "if i=5",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "name": "Javascript is _________ language.",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Application",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Programming",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Scripting",
+          "isAnswer": true
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "None of the above",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1016,
+      "name": "JavaScript Code is written inside file having extension __________.",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": ".javascript",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": ".js",
+          "isAnswer": true
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": ".jvs",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": ".jsc",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1017,
+      "name": "Which attribute is used to specifies that the script is executed when the page has finished parsing (only for external scripts)",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "async",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "defer",
+          "isAnswer": true
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "type",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "parse",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "name": "Which method do you use to explicitly kill a user's session?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Session.Terminate()",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Session.TimeOut()",
+          "isAnswer": false
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Session.Abondon()",
+          "isAnswer": true
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Session.Kill()",
+          "isAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 1019,
+      "name": "Which of the following object is ideal for keeping data alive for a single request?",
+      "questionTypeId": 1,
+      "required": true,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "HttpContext",
+          "isAnswer": true
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Session",
+          "isAnswer": false
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Cookies",
+          "isAnswer": false
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "SqlServer",
+          "isAnswer": false
+        }
+      ]
+    }
+  ]
+}
